@@ -31,6 +31,9 @@ header a {
   text-decoration: none;
   color: white;
 }
+button{
+  border: none;
+}
 .logo {
   font-size: 1.8rem;
   margin-left: 25px;
