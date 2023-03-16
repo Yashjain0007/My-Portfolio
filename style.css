@@ -18,6 +18,9 @@ header {
   border-bottom: 0.1px solid grey;
   z-index: 100;
 }
+button {
+  border: 0;
+}
 .navbar {
   display: flex;
   flex-flow: row wrap;
@@ -30,9 +33,6 @@ header {
 header a {
   text-decoration: none;
   color: white;
-}
-button{
-  border: none;
 }
 .logo {
   font-size: 1.8rem;
@@ -299,7 +299,27 @@ textarea,
 }
 @media (max-width: 800px) {
   header {
-    padding: 10px 40px;
+    /* width: auto; */
+    height: 60px;
+    /* width: 100%; */
+    /* margin: auto auto; */
+    padding: 0;
+  }
+  section {
+    width: 100%;
+  }
+  .fa-moon {
+    display: none;
+  }
+
+  .p {
+    font-size: 11px;
+    max-width: 400px;
+  }
+  .navbar {
+    max-width: auto;
+    padding-right: 0;
+    justify-content: space-evenly;
   }
   .logo {
     font-size: 20px;
