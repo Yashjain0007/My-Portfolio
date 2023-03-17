@@ -411,3 +411,8 @@ textarea,
     font-size: 12px;
   }
 }
+@media (max-width: 550px) {
+  .navbar {
+    width: auto;
+  }
+}
